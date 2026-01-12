@@ -60,5 +60,36 @@ nav .menu a{
     text-decoration: none;
 }
 
+#banner{
+    border: 1px solid red;
+   margin: 47px 38px 0 230px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    color: #181818;
+    font-weight: 900;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
 
